@@ -18,12 +18,12 @@ The system aims to reduce human error, support less experienced clinicians, and 
 - **Clinical Impact**: Enhances diagnostic accuracy and treatment planning in gastroenterology.
 ## Directory structure
 EGD-CAD-System/
-├── data/                # Raw and processed datasets
-├── src/                 # Source code (preprocessing, models, utils, etc.)
-├── experiments/         # Logs, checkpoints, and results
-├── docs/                # Documentation and references
-├── tests/               # Unit tests
-├── scripts/             # Workflow automation scripts
-├── requirements.txt     # Python dependencies
-├── README.md            # This file
-└── LICENSE              # License file
+├── data/
+├── src/
+├── experiments/
+├── docs/
+├── tests/
+├── scripts/
+├── requirements.txt
+├── README.md
+└── LICENSE
