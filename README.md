@@ -17,6 +17,7 @@ The system aims to reduce human error, support less experienced clinicians, and 
 - **Datasets**: Trained on GastroVision and GastroHun for robust generalization.
 - **Clinical Impact**: Enhances diagnostic accuracy and treatment planning in gastroenterology.
 ## Directory structure
+```
 EGD-CAD-System/
 ├── data/
 ├── src/
@@ -27,3 +28,4 @@ EGD-CAD-System/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
