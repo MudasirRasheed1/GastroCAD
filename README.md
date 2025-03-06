@@ -85,4 +85,33 @@ During an endoscopy using the SSS protocol:
 The SSS protocol is particularly valuable in regions with high gastric cancer rates, like Japan, where screening is routine. It’s also gaining attention globally as a way to improve diagnostic yield in Western countries, where gastric cancer is less common but often diagnosed at later stages. By training endoscopists in this method, it’s possible to catch abnormalities like early gastric cancer, *Helicobacter pylori*-related changes, or precancerous lesions (e.g., intestinal metaplasia) earlier.
 
 
+## Summary Table
+
+| Code | Region                            | View      |
+|------|-----------------------------------|-----------|
+| A1   | Anterior wall - Antrum           | Antegrade |
+| A2   | Anterior wall - Lower body       | Antegrade |
+| A3   | Anterior wall - Middle upper body | Antegrade |
+| P1   | Posterior wall - Antrum          | Antegrade |
+| P2   | Posterior wall - Lower body      | Antegrade |
+| P3   | Posterior wall - Middle upper body | Antegrade |
+| L1   | Lesser curvature - Antrum        | Antegrade |
+| L2   | Lesser curvature - Lower body    | Antegrade |
+| L3   | Lesser curvature - Middle upper body | Antegrade |
+| G1   | Greater curvature - Antrum       | Antegrade |
+| G2   | Greater curvature - Lower body   | Antegrade |
+| G3   | Greater curvature - Middle upper body | Antegrade |
+| A4   | Anterior wall - Fundus cardia    | Retroflex |
+| A5   | Anterior wall - Middle upper body | Retroflex |
+| A6   | Anterior wall - Incisura         | Retroflex |
+| P4   | Posterior wall - Fundus cardia   | Retroflex |
+| P5   | Posterior wall - Middle upper body | Retroflex |
+| P6   | Posterior wall - Incisura        | Retroflex |
+| L4   | Lesser curvature - Fundus cardia | Retroflex |
+| L5   | Lesser curvature - Middle upper body | Retroflex |
+| L6   | Lesser curvature - Incisura      | Retroflex |
+| G4   | Greater curvature - Fundus cardia | Retroflex |
+| NA   | Not applicable (unqualified images) | N/A       |
+
+
 
