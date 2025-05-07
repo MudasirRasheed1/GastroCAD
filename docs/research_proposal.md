@@ -24,3 +24,16 @@ Väänänen, A., Haataja, K., Vehviläinen-Julkunen, K., & Toivanen, P. (2021). 
 Visaggi, P., de Bortoli, N., Barberio, B., Savarino, V., Oleas, R., Rosi, E. M., Marchi, S., Ribolsi, M., & Savarino, E. (2022). Artificial Intelligence in the Diagnosis of Upper Gastrointestinal Diseases. *Journal of Clinical Gastroenterology, 56*(1), 23. [https://doi.org/10.1097/MCG.0000000000001629](https://doi.org/10.1097/MCG.0000000000001629)  
 
 Widya, A. R., Monno, Y., Imahori, K., Okutomi, M., Suzuki, S., Gotoda, T., & Miki, K. (2019). 3D Reconstruction of Whole Stomach from Endoscope Video Using Structure-from-Motion. *2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)*, 3900–3904. [https://doi.org/10.1109/EMBC.2019.8857964](https://doi.org/10.1109/EMBC.2019.8857964)  
+
+
+## Problem Statement  
+
+Despite advances in endoscopic technology, missed gastric lesions remain a significant clinical challenge, with studies showing 11.3% of upper gastrointestinal (UGI) neoplasms overlooked during initial endoscopy. Missed lesions often occur due to:  (https://pmc.ncbi.nlm.nih.gov/articles/PMC9157695/)
+
+- **Anatomic blind spots** (e.g., lesser curvature of the antrum, proximal duodenum).  
+- **Human factors** like rapid scope withdrawal or incomplete visualization.  
+- **Cognitive biases** leading to under-recognition of subtle pathologies.
+
+A real-time AI-assisted system that guides endoscopists to systematically document all gastric regions and flags missed areas could reduce diagnostic errors, standardize examinations, and mitigate biases.  
+
+.
