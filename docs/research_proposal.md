@@ -2,18 +2,16 @@
 
 **Discipline:** Medicine  
 **Sub-discipline:** Gastroenterology  
+ 
 
-Artificial intelligence (AI) is one of the most groundbreaking and rapidly developing technologies of present time. AI has its use in a very wide range of fields, and its potential future effects are bound to be very extensive. AI has unveiled monumental potential in the areas of medicine and healthcare, where scientists now seek to research its use in a variety of medicine specialties. (Väänänen et al., 2021)  
+In recent years, artificial intelligence (AI) has emerged as a transformative force in gastroenterology, particularly in enhancing diagnostic precision during esophagogastroduodenoscopy (EGD). However, current AI systems in EGD, such as ENDOANGEL and ENAD CAD-G, are based on simplistic examination protocols like the ESGE 4-image framework and KSGE protocol. These protocols fail to ensure complete mucosal visualization because of inadequate photo documentation, resulting in missed abnormalities and variable EGD quality in various clinical environments.  
 
-Gastroenterology is one branch of medicine which deals with study, diagnosis and treatment of conditions affecting the gastrointestinal (GI) tract, it has undergone vast improvements through the use of artificial intelligence (AI). The GI tract comprises of many organs including the oesophagus, stomach, small intestine, large intestine (colon), rectum, anus, and the liver, gallbladder, and pancreas. AI systems have played a vital role in enhancing the diagnostic accuracy and care of patients in the practice of gastroenterology (Visaggi et al., 2022). Many computer-aided diagnosis (CAD) systems have been developed to aid clinicians in the detection of disease during esophagogastroduodenoscopy (EGD) procedures. CAD systems are especially important for less experienced physicians, as even a minor failure in disease detection can have dire consequences for patients.  
+To overcome this fundamental limitation, this paper introduces an AI system trained on the SSS-Kensho-Yahoo protocol—a screening protocol that divides the stomach into 21 zones to provide complete visual examination and emphasizes complete mucosal coverage for improving lesion detection. We trained three models—ConvNeXt-Large, ResNet-50, and Vision Transformer (ViT)—on a dataset of EGD images to classify gastric regions. Our findings show macro-F1 scores of 61% for ConvNeXt-Large, 66% for ResNet-50, and 68% for ViT, with ViT performing the best in learning global features.  
 
-However, current CAD systems have some drawbacks. Firstly, CAD systems are not very generalized and are inclined towards the detection of a limited number of diseases. Second and main drawback of current CAD models is that they do not have the ability to give spatial information of the detected disease. Spatial information of a detected disease is of extreme importance because it provides very useful information to clinicians and hence makes diagnosis and treatment planning more accurate. (Widya et al., 2019), (Lonseko et al., 2021)  
+In contrast to traditional models which focused on lesion detection and disease classification, our approach redefines procedural standardization by prioritizing anatomical completeness, thus minimizing missed spots during EGD. Our model has the potential to assist inexperienced gastroenterologists by minimizing the time taken for EGD, ensuring complete stomach coverage, thereby enhancing procedural efficiency. By ensuring protocol adherence, our system improves the quality of the EGD procedure, marking a transformative leap forward in clinical gastroenterology and paving the way for superior patient outcomes and care.  
 
-The objective of our research is to create an enhanced Computer-Aided Diagnosis (CAD) system based on the Gastro Vision and Gastro Hun datasets to detect 28 upper gastrointestinal diseases, i.e., those of the oesophagus, stomach, and duodenum. Besides disease detection, our model will also accurately identify the precise locations of the abnormalities detected in the stomach. By incorporating spatial information into the diagnostic process, our model aims fill the gap in current CAD models, enhance clinical decision-making processes and increase the accuracy of endoscopic evaluations.  
 
-The CAD system we propose will have the potential to enhance patient care and assist healthcare practitioners in reducing the level of human error in the diagnosis of disease. For training of our CAD model we will use two datasets GastroVision and GastroHun. The Gastro Vision dataset, published on July 16, 2023, consists of 8,000 annotated images from Norway's Bearum Hospital and Sweden's Karolinska University Hospital, which represent 27 diseases. The Gastro Hun dataset, published on January 17, 2025, consists of 8,834 images from 387 patients, alongside 4,729 annotated video sequences labelled by four experts. It also includes 22 anatomical landmarks of the stomach.  
 
-In conclusion, the proposed CAD system is a major advancement in gastroenterology by surmounting the limitations of existing AI diagnostic systems in gastroenterology. By employing datasets such as Gastro Vision and Gastro Hun, the system improves diagnostic accuracy for 28 upper GI conditions while providing critical spatial information to guide clinical decision-making. This technology holds the promise to transform patient care by reducing diagnostic errors, enabling early disease diagnosis, and supporting clinicians in the provision of precise treatments. Integration of our CAD model into routine clinical practice has potential to transform gastroenterology and create new standards of patient outcomes.  
 
 ## References  
 
@@ -26,14 +24,3 @@ Visaggi, P., de Bortoli, N., Barberio, B., Savarino, V., Oleas, R., Rosi, E. M.,
 Widya, A. R., Monno, Y., Imahori, K., Okutomi, M., Suzuki, S., Gotoda, T., & Miki, K. (2019). 3D Reconstruction of Whole Stomach from Endoscope Video Using Structure-from-Motion. *2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)*, 3900–3904. [https://doi.org/10.1109/EMBC.2019.8857964](https://doi.org/10.1109/EMBC.2019.8857964)  
 
 
-## Problem Statement  
-
-Despite advances in endoscopic technology, missed gastric lesions remain a significant clinical challenge, with studies showing 11.3% of upper gastrointestinal (UGI) neoplasms overlooked during initial endoscopy. Missed lesions often occur due to:  (https://pmc.ncbi.nlm.nih.gov/articles/PMC9157695/)
-
-- **Anatomic blind spots** (e.g., lesser curvature of the antrum, proximal duodenum).  
-- **Human factors** like rapid scope withdrawal or incomplete visualization.  
-- **Cognitive biases** leading to under-recognition of subtle pathologies.
-
-A real-time AI-assisted system that guides endoscopists to systematically document all gastric regions and flags missed areas could reduce diagnostic errors, standardize examinations, and mitigate biases.  
-
-.
