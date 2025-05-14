@@ -1,5 +1,5 @@
-batch_size = 64
+batch_size = 16
 learning_rate = 0.001
-num_epochs = 10
-num_classes = 10
-image_size = 32
+num_epochs = 50
+num_classes = 22
+image_size = 224
